@@ -15,6 +15,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.7
         if: always()
+      - name: Setup Python
+        if: always()
+        uses: actions/setup-python@v5.1.1
+        with:
+          python-version: 3.10.6
+      - name: Set up grading environment
+        run: |
+          sudo apt-get update
+          sudo python -m pip install --upgrade pip
+          sudo python -m pip install gatorgrade --ignore-installed PyYAML
       - name: Check post word counts
         run: |
           bash .grader
