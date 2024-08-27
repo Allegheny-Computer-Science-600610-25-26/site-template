@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#folder articles contains a lot of markdown files
+posts=./posts/*
+
+for post in $posts;
+do
+    if [ -d "$post" ]; then
+        gatorgrader CountFileWords --file index.qmd --directory $post --count 100 --description " Check word count of $post/index.qmd" --nowelcome
+    fi
+done
+

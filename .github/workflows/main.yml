@@ -12,19 +12,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
       - name: Checkout
         uses: actions/checkout@v4.1.7
+        if: always()
+      - name: Check post word counts
+        run: |
+          bash .grader
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        if: always()
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
+        if: always()
       - name: Build with QUarto
         run: |
           quarto render
+        if: always()
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: ./_site
+        if: always()
   deploy:
     environment:
       name: github-pages
