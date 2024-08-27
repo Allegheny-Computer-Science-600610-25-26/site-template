@@ -1,8 +1,8 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-08-24"
-categories: [news]
+title: "Introduction to project"
+author: "A student"
+date: "2024-08-27"
+categories: [demo-day]
 ---
 
 This is the first post in a Quarto blog. Welcome!
