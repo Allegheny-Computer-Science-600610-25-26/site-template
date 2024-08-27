@@ -1,0 +1,9 @@
+# Quarto preview/render
+
+_site/*
+.quarto/*
+
+# SWP files, and other OS-based nonsense
+
+.DS_Store
+*.swp*
