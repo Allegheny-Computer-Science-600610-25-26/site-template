@@ -35,7 +35,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
         if: always()
-      - name: Build with QUarto
+      - name: Build with Quarto
         run: |
           quarto render
         if: always()
