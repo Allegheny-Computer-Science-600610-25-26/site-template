@@ -14,7 +14,7 @@ do
         category=$(sed -n '2,/^---$/ {/^---$/d; p}' $post/index.qmd | yq 'IN(.categories[]; "activity")')
         if [ $category = true ]; then
             act_total=$((act_total + 1))
-            gatorgrader CountFileWords --file index.qmd --directory $post --count 250 --description " Check word count of $post/index.qmd" --nowelcome
+            gatorgrader CountFileWords --file index.qmd --directory $post --count 250 --description " Check word count is 250 of $post/index.qmd" --nowelcome
             if [ $? -eq 0 ]; then
                 $act_completed=$((act_completed + 1))
             fi
@@ -22,7 +22,8 @@ do
         category=$(sed -n '2,/^---$/ {/^---$/d; p}' $post/index.qmd | yq 'IN(.categories[]; "advising")')
         if [ $category = true ]; then
             meet_total=$((meet_total + 1))
-            gatorgrader CountFileWords --file index.qmd --directory $post --count 100 --description " Check word count of $post/index.qmd" --nowelcome
+            gatorgrader CountFileWords --file index.qmd --directory $post --count 100 --description " Check word count is 100 of $post/index.qmd" --nowelcome
+            gatorgrader CountMarkdownTags --file index.qmd --directory $post --tag list --count 1 --description " Check if $post/index.qmd contains a list" --nowelcome
             if [ $? -eq 0 ]; then
                 $meet_completed=$((meet_completed + 1))
             fi
