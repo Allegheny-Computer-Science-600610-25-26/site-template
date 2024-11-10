@@ -1,0 +1,7 @@
+project:
+  type: manuscript
+  output-dir: _docs/thesis.pdf
+format:
+  pdf: true
+  number-sections: true
+  colorlinks: true

@@ -1,0 +1,18 @@
+project:
+  type: manuscript
+  output-dir: _site/thesis
+manuscript:
+  title: "Senior Thesis Title"
+  reader-mode: true
+  author: "Senior Thesis Author"
+  article:
+    - index.qmd
+  search: true
+bibliography: references.bib
+csl: journal-of-the-acm.csl
+format:
+  html:
+    comments:
+      hypothesis: true
+  docx: default
+  jats: default

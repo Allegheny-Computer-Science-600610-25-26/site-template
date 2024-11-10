@@ -1,0 +1,15 @@
+---
+title: Senior Thesis
+authors:
+  - name: A. Thesis Student
+    affiliation: Allegheny College
+    roles: writing
+bibliography: references.bib
+csl: journal-of-the-acm.csl
+---
+
+## Introduction
+
+This is a simple placeholder for the manuscript's main document [@knuth84].
+
+
