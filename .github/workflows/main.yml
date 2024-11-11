@@ -32,6 +32,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         if: always()
+      - name: Create LaTeX enviroment
+        run: |
+	  quarto install tinytex
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
         if: always()
