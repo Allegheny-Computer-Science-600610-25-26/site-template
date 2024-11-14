@@ -12,14 +12,14 @@ keep-tex: true
 
 bibliography: references.bib
 
-title: The Name of the Title Is Hope
+title: Senior Thesis Title
 
 # if short-title is defined, then it's used
 short-title: Hope
 
 author:
-  - name: G.K.M. Tobin
-    email: webmaster@marysville-ohio.com
+  - name: A. Student
+    email: astudent@allegheny.edu
     affiliation:
       name: Allegheny College
       address: 520 N. Main St., Box Q
@@ -34,7 +34,7 @@ acm-metadata:
   # anonymous: true
 
   # comment this out to build a draft version
-  final: true
+  # final: true
 
   # comment this out to specify detailed document options
   # acmart-options: sigconf, review  
@@ -43,7 +43,6 @@ acm-metadata:
   copyright-year: 2025
   acm-year: 2025
   copyright: acmcopyright
-  doi: XXXXXXX.XXXXXXX
 
   # if present, replaces the list of authors in the page header.
   shortauthors: Student

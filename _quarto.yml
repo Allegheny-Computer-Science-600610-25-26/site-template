@@ -8,7 +8,8 @@ website:
   title: "ReadyResearchers Template"
   navbar:
     right:
-      - thesis/index.qmd
+      - text: "Senior Thesis"
+        href: thesis/index.qmd
       - about.qmd
       - icon: github
         href: https://github.com/
