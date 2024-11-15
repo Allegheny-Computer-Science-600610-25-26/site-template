@@ -13,3 +13,6 @@ _site/*
 *.tex
 *.log
 *.aux
+*.cut
+
+site_libs/
