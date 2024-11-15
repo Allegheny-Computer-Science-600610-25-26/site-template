@@ -10,7 +10,7 @@ _site/*
 
 /.quarto/
 
-*.tex
+thesis/*.tex
 *.log
 *.aux
 *.cut
