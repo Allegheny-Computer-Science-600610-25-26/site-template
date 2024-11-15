@@ -12,7 +12,7 @@ title: Senior Thesis Title
 
 firstreader: First Reader
 secondreader: Second Reader
-
+natbiboptions: numbers
 bibliography: references.bib
 
 author:
