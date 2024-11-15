@@ -31,7 +31,7 @@ author:
       postal-code: 16335
 
 abstract: |
-  A well-researched student project.
+  A well-researched student project. Like very.
 ---
 
 # Template description
