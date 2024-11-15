@@ -40,3 +40,24 @@ depending on which selection you make, and you should be able to find the result
 section of the repository's `Settings` menu. Your URL should display at the top of the page:
 
 ![GitHub Pages url](https://raw.githubusercontent.com/ReadyResearchersTemplates/site-template/media/img/600%20-%20Site%20Template%20-%20Github%20URL.png)
+
+## Thesis writing
+
+Per the course syllabus:
+
+> ##### Thesis writing
+>
+> All researchers must also document their work in the form of a written thesis. While variations on the typical structure and
+> contents of a thesis can be specific to a certain project, a typical CIS department thesis contains `5` sections:
+>
+> 1. Introduction
+> 2. Related Work
+> 3. Methods
+> 4. Experiments
+> 5. Future Work
+>
+>During the `600` semester course, students will complete sections `1` and `2` for review by their reader(s). Thesis writing
+>templates and materials will be distributed later in the semester after Demo Day.
+
+This repository also now contains all materials you'll need to build your Senior Thesis. Requirements and guidelines for
+evaluation are written in the [CONTRIBUTING.md](CONTRIBUTING.md) file.

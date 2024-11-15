@@ -1,4 +1,5 @@
 ---
+# EDIT AT YOUR OWN PERIL #
 format:
   html:
     toc: true
@@ -8,11 +9,14 @@ format:
     csl: journal-of-the-acm.csl
   allegheny-cis-pdf: default
 
+natbiboptions: numbers
+# EDIT AT YOUR OWN PERIL #
+
 title: Senior Thesis Title
 
 firstreader: First Reader
 secondreader: Second Reader
-natbiboptions: numbers
+
 bibliography: references.bib
 
 author:
