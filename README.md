@@ -1,5 +1,8 @@
 # CMPSC 600 Research Journal
 
+[![Build Research Journal Site](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
+[![Release Senior Thesis](../../actions/workflows/release.yml/badge.svg)](../../actions/workflows/release.yml)
+
 This Quarto site constitutes your [`Research Journal`](https://github.com/allegheny-college-comp-fall-2024/course-materials?tab=readme-ov-file#research-journal). From the course syllabus and contract:
 
 > ## Class activities posts

@@ -1,7 +1,5 @@
 # 600/610: Senior Thesis Starter for Fall 2024 and Spring 2025
 
-[![Release Senior Thesis](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
-
 ## Table of Contents
 
 * [Introduction](#introduction)
