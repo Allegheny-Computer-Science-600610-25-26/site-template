@@ -59,5 +59,5 @@ Per the course syllabus:
 >During the `600` semester course, students will complete sections `1` and `2` for review by their reader(s). Thesis writing
 >templates and materials will be distributed later in the semester after Demo Day.
 
-This repository also now contains all materials you'll need to build your Senior Thesis. Requirements and guidelines for
+This repository now also contains all materials you'll need to build your Senior Thesis. Requirements and guidelines for
 evaluation are written in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
