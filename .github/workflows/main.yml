@@ -2,7 +2,7 @@ name: Build Research Journal
 on:
   push:
     tags-ignore:
-      - '*.*.*'
+      - '**'
 
 permissions:
   contents: read
