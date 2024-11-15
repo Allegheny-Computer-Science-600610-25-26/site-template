@@ -6,7 +6,7 @@ contributes:
   format:
     pdf:
       template: thesis.tex
-      keep-tex: false
+      keep-tex: true
       cite-method: natbib
       fig-height: 6.5
       fig-width: 4.5
