@@ -34,14 +34,14 @@ body:
         - label: "Low"
   - type: checkboxes
     attributes:
-      label: Source presentation
+      label: Source organization
       description: The author paid close attention to the order of sourcing to develop ideas from the literature.
       options:
         - label: "Yes"
         - label: "No"
   - type: textarea
     attributes:
-      label: Source presentation description
+      label: Source organization description
       description: Provide a rough outline of the topics presented in the Related Work section.
   - type: checkboxes
     attributes:
@@ -56,19 +56,22 @@ body:
       description: Where would additional discussion occur? What source areas lack clear connection?
   - type: checkboxes
     attributes:
-      label: Project ethics
-      description: The author substantively discusses more than two (2) ethical issues that the project presents or addreses.
+      label: Source usage
+      description: The author cites sources in the Related Work using the appropriate citation format.
       options:
         - label: "Yes"
         - label: "No"
-  - type: textarea
-    attributes:
-      label: Project ethics description
-      description: What additional ethical areas did the author not include? What challenges need more definition?
   - type: checkboxes
     attributes:
-      label: Project sourcing
-      description: The author cites sources in the Related Work.
+      label: Source usage
+      description: The author cites sources in the Related Work using the appropriate citation format.
+      options:
+        - label: "Yes"
+        - label: "No"
+ - type: checkboxes
+    attributes:
+      label: Source variety
+      description: Sources demonstrate a wide variety of viewpoints and publication outlets.
       options:
         - label: "Yes"
         - label: "No"
