@@ -1,6 +1,6 @@
-name: Introduction review
-description: Provide peer review feedback for the Introduction chapter of this thesis project.
-title: "Fall 2024 Introduction Peer Review"
+name: Related work review
+description: Provide peer review feedback for the Related Work chapter of this thesis project.
+title: "Fall 2024 Related Work Peer Review"
 body:
   - type: markdown
     attributes:
