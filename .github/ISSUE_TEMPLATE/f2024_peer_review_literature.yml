@@ -8,8 +8,8 @@ body:
         Please respond to the following questions about the introduction chapter.
   - type: checkboxes
     attributes:
-      label: Project clarity
-      description: After reading the first two paragraphs of the introduction, I can clearly articulate a broad summary of the research project.
+      label: Source cohesion
+      description: After reading the the Related Work section, it's clear why the sources used were included.
       options:
         - label: "Yes"
         - label: "No"
@@ -56,11 +56,11 @@ body:
   - type: checkboxes
     attributes:
       label: Project sourcing
-      description: The author cites sources in the introduction.
+      description: The author cites sources in the Related Work.
       options:
         - label: "Yes"
         - label: "No"
   - type: textarea
     attributes:
-      label: General Introduction feedback
+      label: General Related Work feedback
       description: "Highlight 3 areas (excluding grammar) that the author should develop further. Include: one minor, one moderate, and one major revision area."
