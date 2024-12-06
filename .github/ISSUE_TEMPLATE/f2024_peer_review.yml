@@ -33,11 +33,15 @@ body:
         - label: "No"
   - type: checkboxes
     attributes:
-      label: Project assumptions, limitations, deliminations
+      label: Project assumptions, limitations, delimitations
       description: The author's constraining/guiding assumptions and limiations are clearly defined and discussed (not merely mentioned).
       options:
         - label: "Yes"
         - label: "No"
+  - type: textarea
+    attributes:
+      label: Project assumptions description
+      description: What key assumptions are not addressed or addressed very little? What other disclaimers about project scope should the writer include?
   - type: checkboxes
     attributes:
       label: Project ethics
@@ -45,3 +49,16 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+  - type: textarea
+    attributes:
+      label: Project ethics description
+      description: What additional ethical areas did the author not include? What challenges need more definition?
+  - type: checkboxes
+    attributes:
+      label: Project sourcing
+      description: The author cites sources in the introduction.
+      options:
+        - label: "Yes"
+        - label: "No"
+
+  
