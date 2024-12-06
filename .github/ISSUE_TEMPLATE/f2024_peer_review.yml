@@ -13,6 +13,10 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+  - type: textarea
+    attributes:
+      label: Project clarity description
+      description: In your own words, provide a description of the main area being researched and the role that this project plays.
   - type: checkboxes
     attributes:
       label: Project background
