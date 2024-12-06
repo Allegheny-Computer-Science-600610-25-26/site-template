@@ -1,30 +1,25 @@
 name: Related work review
-description: Provide peer review feedback for the Related Work chapter of this
-  thesis project.
+description: Provide peer review feedback for the Related Work chapter of this thesis project.
 title: Fall 2024 Related Work Peer Review
 body:
   - type: markdown
     attributes:
-      value: >
-        Please respond to the following questions about the introduction chapter.
+      value: Please respond to the following questions about the introduction chapter.
   - type: checkboxes
     attributes:
       label: Source cohesion
-      description: After reading the the Related Work section, it's clear why the
-        sources used were included.
+      description: After reading the the Related Work section, it's clear why the sources used were included.
       options:
         - label: "Yes"
         - label: "No"
   - type: textarea
     attributes:
       label: Source cohesion description
-      description: Tell the author more about your thoughts on source cohesion. What
-        didn't make sense?
+      description: Tell the author more about your thoughts on source cohesion. What didn't make sense?
   - type: checkboxes
     attributes:
       label: Source authority
-      description: Sources used in this section are authoritative and appropriate to
-        the project.
+      description: Sources used in this section are authoritative and appropriate to the project.
       options:
         - label: "Yes"
         - label: "No"
@@ -39,42 +34,29 @@ body:
   - type: checkboxes
     attributes:
       label: Source organization
-      description: The author paid close attention to the order of sourcing to develop
-        ideas from the literature.
+      description: The author paid close attention to the order of sourcing to develop ideas from the literature.
       options:
         - label: "Yes"
         - label: "No"
   - type: textarea
     attributes:
       label: Source organization description
-      description: Provide a rough outline of the topics presented in the Related Work
-        section.
+      description: Provide a rough outline of the topics presented in the Related Worksection.
   - type: checkboxes
     attributes:
       label: Source interactions, relationships
-      description: The author discusses the relationships between sources of different
-        categories or themes.
+      description: The author discusses the relationships between sources of different categories or themes.
       options:
         - label: "Yes"
         - label: "No"
   - type: textarea
     attributes:
       label: Source interactions, relationships description
-      description: Where would additional discussion occur? What source areas lack
-        clear connection?
+      description: Where would additional discussion occur? What source areas lack clear connection?
   - type: checkboxes
     attributes:
       label: Source usage
-      description: The author cites sources in the Related Work using the appropriate
-        citation format.
-      options:
-        - label: "Yes"
-        - label: "No"
-  - type: checkboxes
-    attributes:
-      label: Source usage
-      description: The author cites sources in the Related Work using the appropriate
-        citation format.
+      description: The author cites sources in the Related Work using the appropriate citation format.
       options:
         - label: "Yes"
         - label: "No"
