@@ -16,16 +16,14 @@ body:
   - type: checkboxes
     attributes:
       label: Project background
-      description: The writing presents a broad, reasonably comprehensive set of background information such that readers might
-       are convinced of the relevance and significance of the project's intended contribution/intervention in the subject/field.
+      description: The writing presents a broad, reasonably comprehensive set of background information such that readers are convinced of the relevance and significance of the project's intended contribution/intervention in the subject/field.
       options:
         - label: Yes
         - label: No
   - type: checkboxes
     attributes:
       label: Project definitions, terminology
-      description: The author clearly defines all terms not generally part of common knowledge (i.e., I can describe
-        or understand all jargon or discipline-/problem- specific language in the introduction).
+      description: The author clearly defines all terms not generally part of common knowledge (i.e., I can describe or understand all jargon or discipline-/problem- specific language in the introduction).
       options:
         - label: Yes
         - label: No
