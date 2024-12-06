@@ -60,5 +60,7 @@ body:
       options:
         - label: "Yes"
         - label: "No"
-
-  
+  - type: textarea
+    attributes:
+      label: General Introduction feedback
+      description: Highlight 3 areas (excluding grammar) that the author should develop further. Include: one minor, one moderate, and one major revision area.
