@@ -23,7 +23,7 @@ body:
         - label: No
   - type: checkboxes
     attributes:
-      label:
+      label: Project definitions, terminology
       description: The author clearly defines all terms not generally part of common knowledge (i.e., I can describe
         or understand all jargon or discipline-/problem- specific language in the introduction).
       options:
@@ -31,14 +31,14 @@ body:
         - label: No
   - type: checkboxes
     attributes:
-      label:
+      label: Project assumptions, limitations, deliminations
       description: The author's constraining/guiding assumptions and limiations are clearly defined and discussed (not merely mentioned).
       options:
         - label: Yes
         - label: No
   - type: checkboxes
     attributes:
-      label:
+      label: Project ethics
       description: The author substantively discusses more than two (2) ethical issues that the project presents or addreses.
       options:
         - label: Yes
