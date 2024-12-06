@@ -15,33 +15,45 @@ body:
         - label: "No"
   - type: textarea
     attributes:
-      label: Project clarity description
-      description: In your own words, provide a description of the main area being researched and the role that this project plays.
+      label: Source cohesion description
+      description: Tell the author more about your thoughts on source cohesion. What didn't make sense?
   - type: checkboxes
     attributes:
-      label: Project background
-      description: The writing presents a broad, reasonably comprehensive set of background information such that readers are convinced of the relevance and significance of the project's intended contribution/intervention in the subject/field.
+      label: Source authority
+      description: Sources used in this section are authoritative and appropriate to the project.
       options:
         - label: "Yes"
         - label: "No"
   - type: checkboxes
     attributes:
-      label: Project definitions, terminology
-      description: The author clearly defines all terms not generally part of common knowledge (i.e., I can describe or understand all jargon or discipline-/problem- specific language in the introduction).
+      label: Source quality
+      description: Rank the level of source quality demonstrated by the sources used.
       options:
-        - label: "Yes"
-        - label: "No"
+        - label: "High"
+        - label: "Moderate"
+        - label: "Low"
   - type: checkboxes
     attributes:
-      label: Project assumptions, limitations, delimitations
-      description: The author's constraining/guiding assumptions and limiations are clearly defined and discussed (not merely mentioned).
+      label: Source presentation
+      description: The author paid close attention to the order of sourcing to develop ideas from the literature.
       options:
         - label: "Yes"
         - label: "No"
   - type: textarea
     attributes:
-      label: Project assumptions description
-      description: What key assumptions are not addressed or addressed very little? What other disclaimers about project scope should the writer include?
+      label: Source presentation description
+      description: Provide a rough outline of the topics presented in the Related Work section.
+  - type: checkboxes
+    attributes:
+      label: Source interactions, relationships
+      description: The author discusses the relationships between sources of different categories or themes.
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: textarea
+    attributes:
+      label: Source interactions, relationships description
+      description: Where would additional discussion occur? What source areas lack clear connection?
   - type: checkboxes
     attributes:
       label: Project ethics
