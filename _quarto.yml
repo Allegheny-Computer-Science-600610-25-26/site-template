@@ -20,5 +20,3 @@ format:
   html:
     theme: journal
     css: styles.css
-
-author: "A Student"
