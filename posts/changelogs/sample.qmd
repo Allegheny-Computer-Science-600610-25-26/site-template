@@ -1,5 +1,5 @@
 ---
-title: "Thesis *.*.*; Artifact *.*.*"
+title: "Thesis n.n.n; Artifact n.n.n"
 date: "2025-01-12"
 ---
 
