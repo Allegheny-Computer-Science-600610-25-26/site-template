@@ -60,6 +60,7 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
       required: true
   - type: checkboxes
     attributes:
