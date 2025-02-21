@@ -12,6 +12,16 @@ body:
       description: "In your own words, describe an overall summary/overview of the project that the methods chapter describes; what did this research produce?"
   - type: checkboxes
     attributes:
+      label: Methods used
+      description: This section describes which of the following:
+      options:
+        - label: "Algorithms employed"
+        - label: "Programming languages used"
+        - label: "Libraries implemented"
+        - label: "Hardware required or deployed"
+        - label: "Underlying project infrastructure"
+  - type: checkboxes
+    attributes:
       label: Diagrams and figures
       description: This section contains diagrams and figures appropriate to the project.
       options:
@@ -19,8 +29,22 @@ body:
         - label: "No"
   - type: checkboxes
     attributes:
+      label: Source code
+      description: The chapter acknowledges and/or clearly links to a GitHub repository for the project.
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: checkboxes
+    attributes:
       label: Sources
       description: This section cites an appropriate amount of sources with regard to technical tools, platforms, et al.
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: checkboxes
+    attributes:
+      label: Ethical concerns
+      description: The chapter discusses how the method addresses ethical concerns raised in previous chapters with specific, insightful examples.
       options:
         - label: "Yes"
         - label: "No"
