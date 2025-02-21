@@ -43,11 +43,36 @@ body:
         - label: "No"
   - type: checkboxes
     attributes:
+      label: Usage
+      description: The section describes how to use the computational artifact described therein.
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: checkboxes
+    attributes:
+      label: Usage
+      description: The chapter describes expected inputs, outputs, and complete details required to use or run the computational artifact.
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: checkboxes
+    attributes:
       label: Ethical concerns
       description: The chapter discusses how the method addresses ethical concerns raised in previous chapters with specific, insightful examples.
       options:
         - label: "Yes"
         - label: "No"
+- type: dropdown
+  attributes:
+    label: Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+  validations:
+    required: true
   - type: textarea
     attributes:
       label: General Introduction feedback
