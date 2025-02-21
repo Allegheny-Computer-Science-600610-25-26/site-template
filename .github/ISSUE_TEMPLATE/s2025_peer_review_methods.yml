@@ -50,7 +50,7 @@ body:
         - label: "No"
   - type: checkboxes
     attributes:
-      label: Usage
+      label: Inputs and outputs
       description: The chapter describes expected inputs, outputs, and complete details required to use or run the computational artifact.
       options:
         - label: "Yes"
@@ -62,6 +62,18 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+  - type: dropdown
+    attributes:
+      label: Quality rating
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: General Introduction feedback
