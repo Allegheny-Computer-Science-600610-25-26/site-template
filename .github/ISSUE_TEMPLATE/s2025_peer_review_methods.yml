@@ -6,10 +6,14 @@ body:
     attributes:
       value: |
         Please respond to the following questions about the methods chapter.
+    validations:
+      required: true  
   - type: textarea
     attributes:
       label: Summary
       description: "In your own words, describe an overall summary/overview of the project that the methods chapter describes; what did this research produce?"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Methods used
@@ -20,6 +24,8 @@ body:
         - label: "Libraries implemented"
         - label: "Hardware required or deployed"
         - label: "Underlying project infrastructure"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Diagrams and figures
@@ -27,6 +33,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Source code
@@ -34,6 +42,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Sources
@@ -41,6 +51,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Usage
@@ -48,6 +60,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Inputs and outputs
@@ -55,6 +69,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Ethical concerns
@@ -62,6 +78,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Quality rating
@@ -78,7 +96,11 @@ body:
     attributes:
       label: General Introduction feedback
       description: "Highlight 3 areas (excluding grammar) that the author should develop further. Include: one minor, one moderate, and one major revision area."
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: General Introduction positive reinforcement
       description: "Choose at least 1 area (excluding grammar) that the author has done well in this chapter. Offer some feedback as to what you find particularly effective and why."
+    validations:
+      required: true
