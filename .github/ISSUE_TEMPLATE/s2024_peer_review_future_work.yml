@@ -28,15 +28,6 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Appraisal of success
-      description: The chapter takes a clear stance on the outcome of the experiment(s).
-      options:
-        - label: "Yes"
-        - label: "No"
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
       label: Threats to validity
       description: The section adequately describes any threats to validity of the results.
       options:
