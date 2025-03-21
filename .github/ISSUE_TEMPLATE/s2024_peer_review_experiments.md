@@ -1,0 +1,106 @@
+name: Experiments review
+description: Provide peer review feedback for the Experiments chapter of this thesis project.
+title: "Spring 2025 Experiments Peer Review"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please respond to the following questions about the Experiments chapter.
+    validations:
+      required: true  
+  - type: textarea
+    attributes:
+      label: Summary
+      description: "In your own words, the writer's experimental design."
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Methods used
+      description: "This section includes which of the following:"
+      options:
+        - label: "Discussion of experimental method"
+        - label: "Figures"
+        - label: "Tables"
+        - label: "Charts"
+        - label: "Appraisal of results"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Diagrams and figures
+      description: This section contains sufficient diagrams, figures, or tables.
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Source code
+      description: The chapter takes a clear stance on the outcome of the experiment(s).
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Sources
+      description: 
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Usage
+      description: The section describes how to use the computational artifact described therein.
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Inputs and outputs
+      description: The chapter describes expected inputs, outputs, and complete details required to use or run the computational artifact.
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Ethical concerns
+      description: The chapter discusses how the method addresses ethical concerns raised in previous chapters with specific, insightful examples.
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: General Introduction feedback
+      description: "Highlight 3 areas (excluding grammar) that the author should develop further. Include: one minor, one moderate, and one major revision area."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: General Introduction positive reinforcement
+      description: "Choose at least 1 area (excluding grammar) that the author has done well in this chapter. Offer some feedback as to what you find particularly effective and why."
+    validations:
+      required: true
