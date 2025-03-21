@@ -10,18 +10,8 @@ body:
       required: true  
   - type: checkboxes
     attributes:
-      label: Missing features
-      description: "This section _lacks_ which of the following:"
-      options:
-        - label: "Figures"
-        - label: "Tables"
-        - label: "Charts"
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Diagrams and figures
-      description: This section contains sufficient diagrams, figures, or tables.
+      label: Recap
+      description: This section reviews what the writer accomplished.
       options:
         - label: "Yes"
         - label: "No"
@@ -29,8 +19,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Analysis
-      description: The writer's conclusions about the results are reasonable and rooted in the data presented.
+      label: Characterization of outcome(s)
+      description: The writer presents and reflects on the achievement of the project accurately and honestly.
       options:
         - label: "Yes"
         - label: "No"
@@ -56,17 +46,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Inputs and outputs
-      description: The chapter describes expected inputs, outputs, and complete details required to use or run the computational artifact.
-      options:
-        - label: "Yes"
-        - label: "No"
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
       label: Ethical concerns
-      description: The chapter discusses ethical implications inherent in the experimental approach, discussion, and/or implications.
+      description: The chapter concludes ethical discussions started in previous chapters, even if not with definitive answers.
       options:
         - label: "Yes"
         - label: "No"
@@ -82,6 +63,12 @@ body:
         - 3
         - 4
         - 5
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Summary
+      description: "Identify 3-5 future directions that the chapter identifies."
     validations:
       required: true
   - type: textarea
