@@ -62,15 +62,6 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Inputs and outputs
-      description: The chapter describes expected inputs, outputs, and complete details required to use or run the computational artifact.
-      options:
-        - label: "Yes"
-        - label: "No"
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
       label: Ethical concerns
       description: The chapter discusses ethical implications inherent in the experimental approach, discussion, and/or implications.
       options:
