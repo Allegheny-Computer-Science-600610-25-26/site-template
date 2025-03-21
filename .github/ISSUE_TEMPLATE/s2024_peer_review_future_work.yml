@@ -67,7 +67,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Summary
+      label: Future direction(s)
       description: "Identify 3-5 future directions that the chapter identifies."
     validations:
       required: true
