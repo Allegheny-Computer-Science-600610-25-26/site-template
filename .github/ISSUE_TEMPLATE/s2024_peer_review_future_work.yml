@@ -1,19 +1,13 @@
 name: Future Work review
 description: Provide peer review feedback for the Future Work chapter of this thesis project.
-title: "Spring 2025 Experiments Peer Review"
+title: "Spring 2025 Future Work Peer Review"
 body:
   - type: markdown
     attributes:
       value: |
-        Please respond to the following questions about the Experiments chapter.
+        Please respond to the following questions about the Future Work chapter.
     validations:
       required: true  
-  - type: textarea
-    attributes:
-      label: Experimental design
-      description: "In your own words, summarize the writer's experimental design."
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: Missing features
@@ -88,6 +82,12 @@ body:
         - 3
         - 4
         - 5
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 
+      description: "In your own words, summarize the main take-aways from this chapter."
     validations:
       required: true
   - type: textarea
