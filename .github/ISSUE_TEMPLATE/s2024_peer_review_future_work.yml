@@ -86,7 +86,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: 
+      label: Summary
       description: "In your own words, summarize the main take-aways from this chapter."
     validations:
       required: true
