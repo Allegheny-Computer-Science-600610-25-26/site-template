@@ -35,8 +35,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Appraisal of success
-      description: The chapter takes a clear stance on the outcome of the experiment(s).
+      label: Analysis
+      description: The writer's conclusions about the results are reasonable and rooted in the data presented.
       options:
         - label: "Yes"
         - label: "No"
@@ -44,8 +44,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Sources
-      description: 
+      label: Appraisal of success
+      description: The chapter takes a clear stance on the outcome of the experiment(s).
       options:
         - label: "Yes"
         - label: "No"
@@ -92,13 +92,13 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: General Introduction feedback
+      label: General feedback
       description: "Highlight 3 areas (excluding grammar) that the author should develop further. Include: one minor, one moderate, and one major revision area."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: General Introduction positive reinforcement
+      label: General positive reinforcement
       description: "Choose at least 1 area (excluding grammar) that the author has done well in this chapter. Offer some feedback as to what you find particularly effective and why."
     validations:
       required: true
