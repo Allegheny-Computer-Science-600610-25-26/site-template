@@ -10,20 +10,18 @@ body:
       required: true  
   - type: textarea
     attributes:
-      label: Summary
-      description: "In your own words, the writer's experimental design."
+      label: Experimental design
+      description: "In your own words, summarize the writer's experimental design."
     validations:
       required: true
   - type: checkboxes
     attributes:
-      label: Methods used
-      description: "This section includes which of the following:"
+      label: Missing features
+      description: "This section _lacks_ which of the following:"
       options:
-        - label: "Discussion of experimental method"
         - label: "Figures"
         - label: "Tables"
         - label: "Charts"
-        - label: "Appraisal of results"
     validations:
       required: true
   - type: checkboxes
@@ -37,7 +35,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Source code
+      label: Appraisal of success
       description: The chapter takes a clear stance on the outcome of the experiment(s).
       options:
         - label: "Yes"
@@ -55,8 +53,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Usage
-      description: The section describes how to use the computational artifact described therein.
+      label: Threats to validity
+      description: The section adequately describes any threats to validity of the results.
       options:
         - label: "Yes"
         - label: "No"
