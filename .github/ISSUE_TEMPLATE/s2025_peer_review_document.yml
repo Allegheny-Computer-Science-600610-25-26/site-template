@@ -27,6 +27,8 @@ body:
         - 3
         - 4
         - 5
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Comments on Introduction
@@ -49,6 +51,8 @@ body:
       options:
         - label: "Yes"
         - label: "No"
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Source formatting
@@ -68,6 +72,8 @@ body:
         - 3
         - 4
         - 5
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: Comments on Related Works
@@ -102,6 +108,8 @@ body:
         - 3
         - 4
         - 5
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: Comments on Methods
@@ -145,6 +153,8 @@ body:
         - 3
         - 4
         - 5
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: Comments on Experiments
