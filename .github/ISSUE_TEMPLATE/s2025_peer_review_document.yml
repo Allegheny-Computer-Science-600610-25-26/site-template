@@ -108,8 +108,8 @@ body:
         - 3
         - 4
         - 5
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Comments on Methods
@@ -153,8 +153,8 @@ body:
         - 3
         - 4
         - 5
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Comments on Experiments
