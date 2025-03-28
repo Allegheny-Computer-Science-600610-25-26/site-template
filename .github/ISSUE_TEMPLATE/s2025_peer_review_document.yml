@@ -236,3 +236,9 @@ body:
         - 5
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Formative summary comments
+      description: "Describe the reasons that informed your rating of this thesis document."
+    validations:
+      required: true
