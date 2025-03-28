@@ -44,8 +44,8 @@ body:
       label: "Supporting evidence"
       description: "This document contains sufficient evidence to support the results and conclusions drawn from the research presented."
       options:
-        - "Yes"
-        - "No"
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
   - type: dropdown
