@@ -5,13 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please respond to the following questions about the thesis document you've been assigned.
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        Introduction
+        Please respond to the following questions about the thesis document you've been assigned. Note that this process may take much longer to complete than a single class period.
     validations:
       required: true
   - type: checkboxes
@@ -36,6 +30,81 @@ body:
   - type: textarea
     attributes:
       label: Comments on Introduction
+      description: "Describe the reasons that informed your rating of this chapter."
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Related Works
+      description: "The document contains a complete Related Works chapter."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Sourcing
+      description: "The Related Works chapter cites sources."
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: checkboxes
+    attributes:
+      label: Source formatting
+      description: "The Related Works chapter correctly cites sources using ACM format."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+  - type: textarea
+    attributes:
+      label: Comments on Related Works
+      description: "Describe the reasons that informed your rating of this chapter."
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Methods
+      description: "The document contains a complete Methods chapter."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Figures and Diagrams
+      description: "The chapter contains figures and diagrams illustrating the researcher's method."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+  - type: textarea
+    attributes:
+      label: Comments on Methods
       description: "Describe the reasons that informed your rating of this chapter."
     validations:
       required: true
