@@ -8,6 +8,12 @@ body:
         Please respond to the following questions about the thesis document you've been assigned.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Introduction
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Introduction
