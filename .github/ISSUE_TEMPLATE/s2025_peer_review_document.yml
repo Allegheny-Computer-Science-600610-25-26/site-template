@@ -176,6 +176,42 @@ body:
         - label: "No"
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Future Work
+      description: "The document contains a complete Future Work chapter."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating (Future Work)
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Future Directions
+      description: "The document discusses future directions for this research."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comments on Future Work
+      description: "Describe the reasons that informed your rating of this chapter."
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Unresolved issues
