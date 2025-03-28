@@ -108,7 +108,7 @@ body:
       description: "Describe the reasons that informed your rating of this chapter."
     validations:
       required: true
-    - type: checkboxes
+  - type: checkboxes
     attributes:
       label: Experiments
       description: "The document contains a complete Experiments chapter."
