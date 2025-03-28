@@ -222,3 +222,17 @@ body:
         - 3
         - 4
         - "5 or more"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating (Document)
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    validations:
+      required: true
