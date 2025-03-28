@@ -108,6 +108,49 @@ body:
       description: "Describe the reasons that informed your rating of this chapter."
     validations:
       required: true
+    - type: checkboxes
+    attributes:
+      label: Experiments
+      description: "The document contains a complete Experiments chapter."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Display of results
+      description: "The chapter contains tables, charts, or plots that display experimental results."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Display of results
+      description: "The chapter discusses experimental results."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating (Experiments)
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+  - type: textarea
+    attributes:
+      label: Comments on Experiments
+      description: "Describe the reasons that informed your rating of this chapter."
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Summary
