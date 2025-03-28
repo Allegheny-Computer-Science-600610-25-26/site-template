@@ -19,7 +19,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Quality rating
+      label: Quality rating (Introduction)
       description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
       options:
         - 1
@@ -35,8 +35,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Related Works
-      description: "The document contains a complete Related Works chapter."
+      label: Related Work
+      description: "The document contains a complete Related Work chapter."
       options:
         - label: "Yes"
         - label: "No"
@@ -60,7 +60,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Quality rating
+      label: Quality rating (Related Work)
       description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
       options:
         - 1
@@ -94,7 +94,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Quality rating
+      label: Quality rating (Methods)
       description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
       options:
         - 1
