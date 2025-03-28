@@ -1,0 +1,58 @@
+name: Thesis document review
+description: Provide holistic peer review of this thesis project.
+title: "Spring 2025 Holistic Thesis Review"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please respond to the following questions about the thesis document you've been assigned.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Introduction
+      description: "The document contains a complete Introduction."
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Quality rating
+      description: "Rate the quality of this chapter on the following scale: 1 (low quality) - 5 (highest quality)"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+  - type: textarea
+    attributes:
+      label: Comments on Introduction
+      description: "Describe the reasons that informed your rating of this chapter."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Summary
+      description: "In your own words, describe an overall summary/overview of the project that that document presents."
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: "Supporting evidence"
+      description: "This document contains sufficient evidence to support the results and conclusions drawn from the research presented."
+      options:
+        - "Yes"
+        - "No"
+  - type: dropdown
+    attributes:
+      label: Unresolved issues
+      description: "How many unresolved issues does this repository have?"
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5 or more
