@@ -128,7 +128,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Display of results
+      label: Discussion of results
       description: "The chapter discusses experimental results."
       options:
         - label: "Yes"
