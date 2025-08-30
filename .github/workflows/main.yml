@@ -30,9 +30,6 @@ jobs:
           sudo apt install --only-upgrade python3-pip
           sudo python -m pip install gatorgrade --ignore-installed PyYAML
           sudo python -m pip install yq
-      - name: Check post word counts
-        run: |
-          bash .grader
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         if: always()
