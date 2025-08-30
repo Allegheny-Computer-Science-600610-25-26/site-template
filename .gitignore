@@ -16,3 +16,5 @@ thesis/*.tex
 *.cut
 
 site_libs/
+
+**/*.quarto_ipynb

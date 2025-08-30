@@ -1,12 +1,12 @@
 title: allegheny-cis
 author: dluman
-version: 0.1.0
-quarto-required: ">=1.2.0"
+version: 1.0.3
+quarto-required: ">=1.6.0"
 contributes:
   format:
     pdf:
       template: thesis.tex
-      keep-tex: true
+      keep-tex: false
       cite-method: natbib
       fig-height: 6.5
       fig-width: 4.5
@@ -17,4 +17,6 @@ contributes:
     html:
       number-sections: true
       toc: true
+      cite-method: natbib
+      bibliography: references.bib
       cls: journal-of-the-acm.cls

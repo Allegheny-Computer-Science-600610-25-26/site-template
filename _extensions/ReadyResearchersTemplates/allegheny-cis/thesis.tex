@@ -14,6 +14,8 @@ $if(highlighting-macros)$
   $highlighting-macros$
 $endif$ 
 
+\usepackage[letterpaper, portrait, margin=1.5in]{geometry}
+
 $if(csl-refs)$
 % definitions for citeproc citations
 \NewDocumentCommand\citeproctext{}{}
@@ -50,7 +52,21 @@ $if(csl-refs)$
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 $endif$
 
-\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+\makeatother
+
+\usepackage{amsmath,amssymb,amsthm}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{listings}
@@ -62,6 +78,8 @@ $endif$
 \usepackage{titling}
 \usepackage{emptypage}
 \usepackage{graphicx}
+\usepackage{calc}
+\setkeys{Gin}{width=\linewidth}
 \usepackage{ulem}
 \usepackage[Export]{adjustbox}
 \adjustboxset{max size={\textwidth}{0.7\textheight}}
