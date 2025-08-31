@@ -1,23 +1,8 @@
 ---
-# EDIT AT YOUR OWN PERIL #
-format:
-  html:
-    toc: true
-    comments:
-      hypothesis: true
-    citeproc: true
-    csl: journal-of-the-acm.csl
-  allegheny-cis-pdf: default
-
-natbiboptions: numbers
-# EDIT AT YOUR OWN PERIL #
-
 title: Senior Thesis Title
 
 firstreader: First Reader
 secondreader: Second Reader
-
-bibliography: references.bib
 
 author:
   - name: A. Student
@@ -37,20 +22,19 @@ abstract: |
 # Template description
 
 This repository contains the starter materials for your thesis in Computer
-Science 600 and 610 in Fall 2022  and Spring 2023 academic term. The main
-directory of this repository contains the Markdown template for a project that
-is designed for use with GitHub Classroom. To learn more about the course
-in which these assignments were completed, please refer to the `README.md` file.
+Science 600 and 610. The main directory of this repository contains the Markdown
+template for a project designed for use with GitHub Classroom. To learn more about
+the course in which these assignments were completed, please refer to the `README.md` file.
 
-The template specifies various settings in the `config.yaml` file included in the
+The template specifies various settings in the `_metadata.yml` file included in the
 repository. Change the appropriate values under the `Project-specific values`
 heading. Changing other values outside of that section may cause the project to
 fail to build. **Modify these values at your own risk.**
 
-Author your thesis in the `thesis.md` document using appropriate Markdown
-hierarchy and syntax; GitHub Actions will automatically create a PDF from the
-`abstract.md` and `proposal.md` files. Consult the `README` of the proposal
-repository to learn how to properly build and release this PDFs.
+Author your thesis in the `index.md` document using appropriate Markdown
+hierarchy and syntax; GitHub Actions will automatically create a PDF from the relevant
+files.. Consult the `README` of the proposal repository to learn how to properly build
+and release this PDFs.
 
 ## Citations and references
 

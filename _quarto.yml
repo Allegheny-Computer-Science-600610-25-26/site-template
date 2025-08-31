@@ -6,7 +6,9 @@ project:
   - "!*.md"
 execute:
   freeze: auto
-
+author:
+  - name: A. Student
+    email: astudent@allegheny.edu
 website:
   title: "ReadyResearchers Template"
   navbar:

@@ -1,6 +1,5 @@
 ---
 title: "Activity template post"
-author: "A student"
 date: "2024-08-29"
 ---
 

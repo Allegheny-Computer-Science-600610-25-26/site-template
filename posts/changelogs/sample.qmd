@@ -1,10 +1,10 @@
 ---
-title: "Thesis 0.9.4; Artifact 0.7.3"
 date: "2025-01-12"
-author: "A Student"
+thesis_version: 0.0.1
+artifact_version: 0.0.1
 ---
 
-## Thesis 0.9.4
+## Thesis {{< meta thesis_version >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus lacus in lectus vehicula finibus. Donec nec tellus eu nisl aliquam porta a id sem. Phasellus a massa nulla. Mauris quis lectus ut arcu viverra convallis. Duis efficitur pellentesque placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris feugiat massa in ligula commodo, in posuere mi lacinia. Donec rutrum odio non pretium dignissim. Pellentesque felis elit, lobortis quis eros a, tempor fermentum sapien. Nunc volutpat dolor non lorem pharetra dictum. Nunc interdum pulvinar felis finibus rutrum.
 
@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus lacus in le
 * Tempus fugit semesterium
 * Tellem whatus we changeus
 
-## Artifact 0.7.3
+## Artifact {{< meta artifact_version >}}
 
 Nullam ultricies et justo in vehicula. Nulla vitae lectus vitae mauris mattis elementum nec a mi. In hac habitasse platea dictumst. Nunc pretium ultrices metus, id interdum lectus tincidunt in. Sed venenatis mauris nec ornare iaculis. Vestibulum eget nisl turpis. Integer viverra nunc ac nulla auctor bibendum. Fusce eget lectus quis mauris vehicula convallis. Curabitur imperdiet ac metus ac blandit. Aliquam congue faucibus tortor, vitae pretium elit auctor sit amet. Proin tincidunt posuere sagittis. Ut quis tellus orci. Quisque placerat rutrum augue, id pretium velit consectetur in. Maecenas ac porta eros, et lobortis magna. Integer sollicitudin eget ex vitae facilisis. Fusce pellentesque vel tellus sed pretium.
 

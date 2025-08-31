@@ -1,6 +1,5 @@
 ---
 title: "Sample meeting with an advisor"
-author: "A student"
 date: "2025-08-29"
 ---
 

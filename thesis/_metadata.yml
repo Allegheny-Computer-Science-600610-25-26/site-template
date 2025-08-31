@@ -1,0 +1,21 @@
+code-fold: true
+keep-tex: false
+format:
+  html:
+    toc: true
+    comments:
+      hypothesis: true
+    citeproc: true
+    csl: journal-of-the-acm.csl
+  allegheny-cis-pdf: default
+
+natbiboptions: numbers
+bibliography: references.bib
+author:
+    - affiliation:
+      name: Allegheny College
+      address: 520 N. Main St., Box Q
+      city: Meadville
+      state: Pennsylvania
+      country: USA
+      postal-code: 16335
