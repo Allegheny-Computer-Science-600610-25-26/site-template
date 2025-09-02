@@ -27,12 +27,11 @@ jobs:
       - name: Render the PDF
         run: |
           quarto render thesis/index.qmd  --to allegheny-cis-pdf
+          cp _site/thesis/index.pdf _site/thesis/SeniorThesis.pdf
         if: always()
       - name: Create release
         id: create-release
         uses: softprops/action-gh-release@v2
-        run: |
-          cp _site/thesis/index.pdf _site/thesis/SeniorThesis.pdf
         with:
           files: |
             _site/thesis/SeniorThesis.pdf
