@@ -5,7 +5,4 @@
 freeze: true
 
 # Lock all posts in this folder to a given category
-categories: [🪵 changelog]
-
-title: "Changelog"
-pagetitle: "Changelog: Thesis: {{< meta thesis-version >}}; Artifact {{< meta artifact-version >}}"
+categories: [🗃️ agenda]

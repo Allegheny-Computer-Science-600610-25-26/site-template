@@ -1,4 +1,4 @@
-# 600/610: Senior Thesis Starter for Fall 2024 and Spring 2025
+# 600/610: Senior Thesis Starter for Allegheny College CIS
 
 ## Table of Contents
 

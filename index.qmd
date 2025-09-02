@@ -1,12 +1,35 @@
 ---
 title: "ReadyResearchers Template"
 listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+  - id: posts
+    contents:
+      - posts/agenda/*.qmd
+      - posts/reflection/*.qmd
+      - posts/feedback/*.qmd
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, date, description, categories, word-count, image]
+  - id: changelogs
+    contents: posts/changelogs
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, date, description, categories, word-count, image, thesis-version, artifact-version]
 page-layout: full
 title-block-banner: true
 ---
+
+## Posts
+
+:::{#posts}
+:::
+
+## Changelogs
+
+:::{#changelogs}
+:::
