@@ -10,11 +10,17 @@ _site/*
 
 /.quarto/
 
-thesis/*.tex
-*.log
+*.json
+*.out
+*.tex
+*.out
+*.log 
 *.aux
 *.cut
 
 site_libs/
 
 **/*.quarto_ipynb
+
+# HTML files
+*.html
