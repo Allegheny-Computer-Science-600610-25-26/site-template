@@ -8,4 +8,5 @@ freeze: true
 categories: [🪵 changelog]
 
 title: "Changelog"
-pagetitle: "Changelog: Thesis: {{< meta thesis-version >}}; Artifact {{< meta artifact-version >}}"
+pagetitle: 'Changelog: Thesis: {{< meta "Thesis Version" >}}; Artifact {{< meta "Artifact Version" >}}'
+image: changelog.jpg
