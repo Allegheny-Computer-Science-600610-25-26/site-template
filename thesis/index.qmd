@@ -1,8 +1,23 @@
 ---
+# EDIT AT YOUR OWN PERIL #
+format:
+  html:
+    toc: true
+    comments:
+      hypothesis: true
+    citeproc: true
+    csl: journal-of-the-acm.csl
+  allegheny-cis-pdf: default
+
+natbiboptions: numbers
+# EDIT AT YOUR OWN PERIL #
+
 title: Senior Thesis Title
 
 firstreader: First Reader
 secondreader: Second Reader
+
+bibliography: references.bib
 
 author:
   - name: A. Student
@@ -92,12 +107,12 @@ you may also need to add the package to the [GitHub Actions Workflow](.github/wo
 
 Direct any questions about issues to your first reader.
 
-{{ < include chapters/introduction.qmd > }}
+{{ < include introduction.qmd > }}
 
-{{ < include chapters/related_work.qmd > }}
+{{ < include related_work.qmd > }}
 
-{{ < include chapters/methods.qmd > }}
+{{ < include methods.qmd > }}
 
-{{ < include chapters/experiments.qmd > }}
+{{ < include experiments.qmd > }}
 
-{{ < include chapters/conclusion.qmd > }}
+{{ < include conclusion.qmd > }}
