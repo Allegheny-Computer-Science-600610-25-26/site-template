@@ -107,12 +107,12 @@ you may also need to add the package to the [GitHub Actions Workflow](.github/wo
 
 Direct any questions about issues to your first reader.
 
-{{ < include introduction.qmd > }}
+{{< include _introduction.qmd >}}
 
-{{ < include related_work.qmd > }}
+{{< include _related_work.qmd >}}
 
-{{ < include methods.qmd > }}
+{{< include _methods.qmd >}}
 
-{{ < include experiments.qmd > }}
+{{< include _experiments.qmd >}}
 
-{{ < include conclusion.qmd > }}
+{{< include _conclusion.qmd >}}
