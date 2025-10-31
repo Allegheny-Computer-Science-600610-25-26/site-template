@@ -78,7 +78,7 @@ should accomplish as a part of the entire senior thesis document.
 * **Highlights** the ethical issues implied by the current state of the problem
 underlying the work
 
-#### Related Work
+#### Related Work Requirements
 
 * **Reviews** the relevant existing work (i.e., the "literature review")
 * **Furnishes** a concise, scholarly review of the literature explaining the
@@ -100,7 +100,7 @@ code snippets and/or algorithm statements
 address ethical concerns in datasets, software processes, or theoretical
 approaches
 
-#### Experimental Results
+#### Experimental Results Requirements
 
 * **Displays and discusses** evaluative metrics and data used as validation
 strategies the projects
@@ -113,6 +113,14 @@ the key trends in the experimental results
 * **Discusses** any threats to validity that remain from the original summary of
 the research or those introduced by any approaches or data used in the these
 research and implementation process
+
+#### Conclusion and Future Work Requirements
+
+- **Summarizes** your research and experimental outcomes proposes
+- **Proposes**, where applicable, future areas of work or research indicated by
+the conclusion of this research
+- **Furnishes** an evidence- or results-based appraisal of ethical issues left
+unresolved or created by this research
 
 ## Gauging Your Level of Achievement
 
