@@ -3,11 +3,11 @@
 ## Introduction
 
 This repository contains the starter for the Senior Thesis document. This
-document compiles using GitHub Actions; students should write the entirety of
-their document using the `thesis/index.md` file. The template
-contains more specific details about its use. The remainder of this
-`README` overview the project's requirements and the process of publishing the
-research journal and releasing a thesis document via GitHub Actions.
+document compiles using GitHub Actions.  The template contains more specific
+details about its use. The remainder of this `CONTRIBUTING` file overview the
+project's requirements and the process of publishing the research journal and
+releasing a thesis document via GitHub Actions. Please see the course syllabus
+for more details about the course or the assessment requirements.
 
 ## Overview
 
