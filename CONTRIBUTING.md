@@ -1,21 +1,5 @@
 # 600/610: Senior Thesis Starter for Allegheny College CIS
 
-## Table of Contents
-
-* [Introduction](#introduction)
-* [Overview](#overview)
-* [Requirements](#general-thesis-requirements)
-  + [Introduction](#introduction)
-  + [Related Works](#related-works)
-  + [Method of Approach](#method)
-  + [Experiments](#experiments)
-  + [Conclusion](#future-work)
-* [Gauging your level of achievement](#gauging-your-level-of-achievement)
-* [Tagging](#tagging)
-* [Updates](#updates)
-* [Problems](#problems)
-* [Assistance](#assistance)
-
 ## Introduction
 
 This repository contains the starter for the Senior Thesis document. This
@@ -23,14 +7,14 @@ document compiles using GitHub Actions; students should write the entirety of
 their document using the `thesis/index.md` file. The template
 contains more specific details about its use. The remainder of this
 `README` overview the project's requirements and the process of publishing the
-document via GitHub Actions.
+research journal and releasing a thesis document via GitHub Actions.
 
 ## Overview
 
 This assignment requires a researcher to write a Markdown and LaTeX document,
-stored in this README and in the file `thesis/index.md` that describes the key aspects
-of a senior thesis research project. Please refer to the source code in this
-file for an explanation of the components of a senior thesis and the way in
+stored in this README and in the file `thesis/index.md` that describes the key
+aspects of a senior thesis research project. Please refer to the source code in
+this file for an explanation of the components of a senior thesis and the way in
 which you create them in Markdown and/or LaTeX.
 
 Your course instructor will reduce a researcher's grade for this assignment if
