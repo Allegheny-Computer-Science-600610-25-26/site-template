@@ -10,7 +10,7 @@ this repository contain contains instructions for your research journal and your
 senior thesis document. Quarto, serving as a build system for your site, will
 build your thesis document as a website and a PDF.
 
-## Research journal
+## Research Journal
 
 Your research journal contains short posts in one of the following categories:
 `reflection`, `feedback`, `activity`, and `changelog`. For the Fall 2025
