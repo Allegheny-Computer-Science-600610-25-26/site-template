@@ -10,7 +10,7 @@ this repository contain contains instructions for your research journal and your
 senior thesis document. Quarto, serving as a build system for your site, will
 build your thesis document as a website and a PDF. Your research journal
 contains short blog posts in one of the following categories: `reflection`,
-`feedback`, `agenda`, and `changelogs`.
+`feedback`, `activity`, and `changelog`.
 
 ## Enabling site build
 
