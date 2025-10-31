@@ -10,6 +10,8 @@ this repository contain contains instructions for your research journal and your
 senior thesis document. Quarto, serving as a build system for your site, will
 build your thesis document as a website and a PDF.
 
+## Research journal
+
 Your research journal contains short posts in one of the following categories:
 `reflection`, `feedback`, `activity`, and `changelog`. For the Fall 2025
 semester, you are responsible for writing the following posts:
@@ -32,6 +34,22 @@ semester, you are responsible for writing the following posts:
 
 Your writing assignments for the 610-level course will be released during the
 upcoming Spring 2026 semester.
+
+## Senior Thesis Chapters
+
+All researchers in the 600-level course in Computer and Information Science must
+document their work in the form of a written thesis. While variations on the
+typical structure and contents of a thesis can be specific to a certain project,
+a typical Computer and Information Science thesis contains `5` sections:
+
+ 1. Introduction
+ 2. Related Work
+ 3. Methods
+ 4. Experiments
+ 5. Future Work
+
+As outlined on the course syllabus, during the `600` semester course, students
+complete Chapters `1` and `2` for review by their reader(s). 
 
 ## Enabling site build
 
@@ -57,21 +75,6 @@ display at the top of the page:
 
 ## Thesis writing
 
-Per the course syllabus:
-
-> ##### Thesis writing
->
-> All researchers must also document their work in the form of a written thesis. While variations on the typical structure and
-> contents of a thesis can be specific to a certain project, a typical CIS department thesis contains `5` sections:
->
-> 1. Introduction
-> 2. Related Work
-> 3. Methods
-> 4. Experiments
-> 5. Future Work
->
->During the `600` semester course, students will complete sections `1` and `2` for review by their reader(s). Thesis writing
->templates and materials will be distributed later in the semester after Demo Day.
 
 This repository now also contains all materials you'll need to build your Senior Thesis. Requirements and guidelines for
 evaluation are written in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
