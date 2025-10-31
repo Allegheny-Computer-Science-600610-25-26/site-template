@@ -8,9 +8,9 @@ Computer and Information Science, please refer to the syllabus for your course.
 To enable you to complete many of the deliverables for the 600-level course,
 this repository contain contains instructions for your research journal and your
 senior thesis document. Quarto, serving as a build system for your site, will
-build your thesis document as a website and a PDF. For now, it is your
-responsibility to main this space as your [`Research
-Journal`](https://github.com/allegheny-college-comp-fall-2024/course-materials?tab=readme-ov-file#research-journal).
+build your thesis document as a website and a PDF. Your research journal
+contains short blog posts in one of the following categories: `reflection`,
+`feedback`, `agenda`, and `changelogs`.
 
 ## Enabling site build
 
