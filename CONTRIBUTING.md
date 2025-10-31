@@ -43,17 +43,16 @@ will be considered towards your grade for this project.
 ## Requirements
 
 For specific details about the general evaluation rubric for _minimum
-requirements_ please refer to the following list for the entire senior thesis.
-Please note that your senior thesis chapters in your time in `600` will be evaluated
-according to the content that you submit in that course and your senior thesis
-chapters submitted during `610` will be evaluated according to all of the following
-baseline requirements. This means that a student's work for `600` will not
-be evaluated according to requirements that they could not yet fulfill until the
-completion of their senior thesis. For instance, the requirement that "The
-thesis consists of at least `15000` words" applies to a student's work in `610` 
-and _not_ `600`. Finally, please note that these are only baseline
-requirements and it is expected that an exceptional senior thesis will exceed
-these requirements.
+requirements_ please refer to the course syllabus. Please note that your senior
+thesis chapters in your time in `600` will be evaluated according to the content
+that you submit in that course and your senior thesis chapters submitted during
+`610` will be evaluated according to all of the following baseline requirements.
+This means that a student's work for `600` will not be evaluated according to
+requirements that they could not yet fulfill until the completion of their
+senior thesis. For instance, the requirement that "The thesis consists of at
+least `15000` words" applies to a student's work in `610` and _not_ `600`.
+Finally, please note that these are only baseline requirements and it is
+expected that an exceptional senior thesis will exceed these requirements.
 
 Please consult the following sub-sections, as section requirements may have
 changed from requirements in previous years. All descriptions of each section
@@ -62,59 +61,31 @@ limited to" the areas highlighted. It is also important to note that students
 may, with the consent of their both their first and second readers, modify the
 structure of their senior thesis so that it includes, for instance, different
 chapters or different ordering of chapters. With that written, the final senior
-thesis that a student submits must still meet all of these baseline
-requirements.
+thesis that a student submits must still meet all the baseline
+requirements outlined in the course syllabus.
 
 Also keep in mind that the typical instruction to
 
 > whenever possible, use and describe one or more concrete examples and
-technical diagrams
+> technical diagrams
 
 applies across _all_ relevant sections listed below.
 
-A final note about requirements: nearly all of the sections requests some
+A final note about requirements: nearly all the sections requests some
 discussion of ethical implications inherent in projects. The ways in which
 ethical issues impact research will vary from project to project. Your first and
 second readers will be able to guide you on a project-by-project basis toward
 responding to the ethics requirements listed below.
 
-### General Thesis Requirements
+### Highlights of Thesis Requirements
 
-The following lists of requirements describe the general _shape_, and some of the fundamental
-specifics of what each section entails. Meeting the following requirements ensures a _passing_
-grade, and not necessarily anything above that watermark.
-
-#### Baseline contents
-
-  - [ ] The abstract provides a concise and compelling summary of the research
-  - [ ] The thesis was submitted on time as a PDF in a tagged release on GitHub
-  - [ ] The GitHub repository of the thesis contains evidence of many commits
-  - [ ] The GitHub repository of the thesis contains multiple releases using the
-    [Semantic Versioning Standard](https://semver.org/)
-    - [ ] The GitHub repository of the thesis has a passing build status in GitHub Actions
-  - [ ] In adherence to the [Semantic Versioning Standard](https://semver.org/),
-    the GitHub repository of the thesis contains a release greater than `0.5.0`
-    for the work in `600` and a release greater than `1.0.0` for `610`
-  - [ ] The thesis has the correct format created through the use of Pandoc and
-    LaTeX and the senior thesis template for the Department of Computer and Information Science
-  - [ ] The title of the thesis is both interesting and appropriate
-  - [ ] The thesis includes at least twenty `20` references
-  - [ ] Unless there is a convincing reason to require otherwise, each chapter
-    in the senior thesis should contain at least ten to twenty pages of
-    contents formatted in the required style
-  - [ ] The thesis consists of at least `15000` words
-  - [ ] The thesis follows a logical organization at the level of chapters, sections,
-    subsections, and individual paragraphs
-  - [ ] The thesis includes appropriate visual aids, which fall under the broad
-    categories of:
-  * `image`
-  * `figure`
-  * `table`
-  * `graph`
-  - [ ] The thesis highlights and explains the societal impacts and ethical
-    implications of the completed research
-  - [ ] There are no typographical or grammatical errors in the thesis
-  - [ ] There is no extraneous text in the thesis
+The following lists of requirements describe the general _shape_, and some of
+the fundamental specifics of what each chapter entails. Meeting the following
+requirements ensures a _passing_ grade, and not necessarily anything above that
+watermark. Please review the course syllabus for more details about the specific
+baseline requirements for each chapter. The purpose of the content in these
+lists it to use "action words" to highlight the key tasks that each chapter
+should accomplish as a part of the entire senior thesis document.
 
 #### Introduction Section Requirements
 
@@ -122,12 +93,7 @@ grade, and not necessarily anything above that watermark.
 * overall project aims
 * background motivating your research
 * a high-level overview of ethical issues implied by the current state of the
-  problem underlying the work
-
-  - [ ] The introduction section clearly describes the completed work
-  - [ ] The introduction section motivates the completed work from a
-    professional perspective
-  - [ ] The introduction section outlines the ethical implications of the thesis
+problem underlying the work
 
 #### Related Work
 
@@ -139,11 +105,6 @@ grade, and not necessarily anything above that watermark.
 * the literature review should place the senior thesis research in the context
   of the relevant existing work
 * review of ethical discussions referenced in the `Introduction`
-
-  - [ ] The related work section references and describes relevant literature
-  - [ ] The related work section explains how relevant literature connects to the thesis
-  - [ ] The related work section does not provide a "laundry list" of the related literature
-  - [ ] The related work section situates the completed project in the broader scope
 
 #### Method Section Requirements
 
