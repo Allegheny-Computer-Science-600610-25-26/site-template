@@ -55,7 +55,9 @@ complete Chapters `1` and `2` for review by their reader(s). More details
 about the baseline requirements for the senior thesis document are available
 in the course syllabus and in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## Enabling Site Build
+## Course Technology Use
+
+### Enabling Site Build
 
 This site deploys via Github Pages using the Quarto static site building system.
 
@@ -77,7 +79,7 @@ display at the top of the page:
 
 ![GitHub Pages url](https://raw.githubusercontent.com/ReadyResearchersTemplates/site-template/media/img/600%20-%20Site%20Template%20-%20Github%20URL.png)
 
-## Release Tagging
+### Release Tagging
 
 Since this repository primarily contains Markdown and/or LaTeX source code, the
 GitHub Actions configuration for it will compile the source code and
