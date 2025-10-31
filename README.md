@@ -28,9 +28,9 @@ semester, you are responsible for writing the following posts:
       600-level course in Computer and Information Science
 - One `changelog` post:
     - Summarize all work completed leading up to a `1.0` release of your senior
-      comprehensive project that is visible through a website hosted on GitHub
-      pages and a release of your senior thesis in PDF through the `Releases`
-      tab inside of your GitHub repository
+    comprehensive project that is visible through a website hosted on GitHub
+    pages and a release of your senior thesis as a PDF document through the
+    `Releases` tab inside of your GitHub repository
 
 Your writing assignments for the 610-level course will be released during the
 upcoming Spring 2026 semester.
