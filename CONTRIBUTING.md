@@ -91,31 +91,28 @@ problem underlying the work
 
 #### Method Section Requirements
 
-* describes the infrastructure and tools implemented to serve, test, and support
-  research and conduct experiments
-* enumerates the general processes and code used by the project with required
-  technical content that would include, for instance, diagrams and/or code
-  snippets and/or algorithm statements
-* addresses the interventions that the research incorporates or develops to
-  address ethical concerns in datasets, software processes, or theoretical
-  approaches
+* **Describes** the infrastructure and tools implemented to serve, test, and
+support research and conduct experiments
+* **Enumerates** the general processes and code used by the project with
+required technical content that would include, for instance, diagrams and/or
+code snippets and/or algorithm statements
+* **Addresses** the interventions that the research incorporates or develops to
+address ethical concerns in datasets, software processes, or theoretical
+approaches
 
 #### Experimental Results
 
-* displays and discusses evaluative metrics and data used as validation
-  strategies the projects
-* clearly defines thresholds for success, and discusses the outcomes of
-  experiments relative to them
-* explores the trade-offs evident in the experimental results, leverage
-  previously defined metrics about, for instance, efficiency and/or
-  effectiveness
-* uses techniques such as statistics and/or data visualizations to highlight the
-  key trends in the experimental results
-* discusses any threats to validity that remain from the original summary of the
-  research or those introduced by any approaches or data used in the these
-  research and implementation process
-  - [ ] The discussion and future work section critically reflects on the completed research project
-  - [ ] The conclusion outlines, with sufficient depth and detail, avenues for further and/or future work
+* **Displays and discusses** evaluative metrics and data used as validation
+strategies the projects
+* **Defines** thresholds for success, and discusses the outcomes of experiments
+relative to them
+* **Explores** the trade-offs evident in the experimental results, leverages
+previously defined metrics about, for instance, efficiency and/or effectiveness
+* **Uses** techniques such as statistics and/or data visualizations to highlight
+the key trends in the experimental results
+* **Discusses** any threats to validity that remain from the original summary of
+the research or those introduced by any approaches or data used in the these
+research and implementation process
 
 ## Gauging your level of achievement
 
