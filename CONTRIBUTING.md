@@ -72,11 +72,11 @@ should accomplish as a part of the entire senior thesis document.
 
 #### Introduction Section Requirements
 
-* a statement of the problem addressed in this research
-* overall project aims
-* background motivating your research
-* a high-level overview of ethical issues implied by the current state of the
-problem underlying the work
+* **States** the problem addressed in this research
+* **Overviews** the project's aims
+* **Summarizes** the background motivating your research
+* **Highlights** the  ethical issues implied by the current state of the problem
+underlying the work
 
 #### Related Work
 
