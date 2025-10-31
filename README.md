@@ -49,7 +49,9 @@ a typical Computer and Information Science thesis contains `5` sections:
  5. Future Work
 
 As outlined on the course syllabus, during the `600` semester course, students
-complete Chapters `1` and `2` for review by their reader(s). 
+complete Chapters `1` and `2` for review by their reader(s). More details
+about the baseline requirements for the senior thesis document are available
+in the course syllabus and in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Enabling site build
 
