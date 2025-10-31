@@ -114,12 +114,13 @@ the key trends in the experimental results
 the research or those introduced by any approaches or data used in the these
 research and implementation process
 
-## Gauging your level of achievement
+## Gauging Your Level of Achievement
 
 With a task such as this, defining _precisely_ what constitutes exceptional or
 above-average work is difficult, as each project is distinct and is only
-comparable to its own potential. Achieving that potential may look like any of
-the following scenarios.
+comparable to its own potential. Bearing in mind that the title of this
+subsection uses the word "Gauging", the following lists can help you to see what
+your achievement may look like any of the following scenarios.
 
 ### Exceptional work (i.e., A- and upward)
 
