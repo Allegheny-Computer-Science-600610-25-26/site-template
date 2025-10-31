@@ -193,12 +193,13 @@ complete them. Sources are low-quality and/or are missing. Multiple requirements
 (on the order of 50% or more) are not fulfilled. Writing is cursory and not
 descriptive; may include many instances of generalization and no evidence.
 
-## Tagging
+## Release Tagging
 
 Since this repository primarily contains Markdown and/or LaTeX source code, the
 GitHub Actions configuration for it will compile the source code and
 automatically release a PDF of the main file whenever the last commit is
-associated with a [Git Tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+associated with a [Git
+Tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
 This will build a PDF file available in the "Releases" listing for this
 repository. All release numbers for your writing in this repository should
@@ -261,4 +262,9 @@ the procedure outlined above.
 If you are having trouble completing any part of this project, then please talk
 with your first reader, second reader, or the coordinator for your 600-level
 course. In particular, if you have questions about your research project, please
-see your first reader. 
+see your first reader. Students who want to learn more about [Managing
+releases in a GitHub
+repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+or other topics related to release management on GitHub are encouraged to check
+the [GitHub Releases
+Documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
