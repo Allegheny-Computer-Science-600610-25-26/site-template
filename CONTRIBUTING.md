@@ -50,12 +50,9 @@ chapters or different ordering of chapters. With that written, the final senior
 thesis that a student submits must still meet all the baseline
 requirements outlined in the course syllabus.
 
-Also keep in mind that the typical instruction to
-
-> whenever possible, use and describe one or more concrete examples and
-> technical diagrams
-
-applies across _all_ relevant chapters listed below.
+Also keep in mind that the typical instruction to "whenever possible, use and
+describe one or more concrete examples and technical diagrams" applies across
+_all_ relevant chapters listed below.
 
 A final note about requirements: nearly all chapters request some discussion of
 ethical implications inherent in projects. The ways in which ethical issues
@@ -103,20 +100,6 @@ problem underlying the work
   address ethical concerns in datasets, software processes, or theoretical
   approaches
 
-  - [ ] The method section explains the process utilized in the completed study
-  - [ ] The method section addresses as many of the necessary methodology used in the research project. For example, the following may be relevant to the project:
-  * `description of algorithms`
-  * `programming languages`
-  * `libraries`
-  * `platforms`
-  * `software tools`
-  * `hardware`
-  - [ ] The method section references the GitHub repository that contains the project's artifact(s)
-  - [ ] The method section, when appropriate, explains how to
-    run the computational artifact (note that the `README.md` file of the GitHub
-    repository that contains the computational artifact(s) should furnish
-    complete details about the input, output, behavior, and use of the project as necessary)
-
 #### Experimental Results
 
 * displays and discusses evaluative metrics and data used as validation
@@ -131,80 +114,79 @@ problem underlying the work
 * discusses any threats to validity that remain from the original summary of the
   research or those introduced by any approaches or data used in the these
   research and implementation process
-
-  - [ ] The experimental results section includes a description of experiments
-    such that a reader should be able to reproduce them
-  - [ ] The evaluation subsection describes how the work is validated
-  - [ ] The evaluation subsection contains at least one graph, table of data, or
-    some other relevant presentation of the results from the experimental study
-  - [ ] The experimental results section details threats to validity
-
-#### Future Work
-
-* provides a summary of your research and experimental outcomes
-* proposes, where applicable, future areas of work or research indicated by the
-  conclusion of this research
-* includes an evidence- or results-based appraisal of ethical issues left
-  unresolved or created by this research
-
-  - [ ] The discussion and future work section discusses the impact of the completed research project
   - [ ] The discussion and future work section critically reflects on the completed research project
   - [ ] The conclusion outlines, with sufficient depth and detail, avenues for further and/or future work
 
 ## Gauging your level of achievement
 
-With a task such as this, defining _precisely_ what constitutes exceptional or above-average work is difficult,
-as each project is distinct and is only comparable to its own potential. Achieveing that potential may look
-like any of the following scenarios.
+With a task such as this, defining _precisely_ what constitutes exceptional or
+above-average work is difficult, as each project is distinct and is only
+comparable to its own potential. Achieving that potential may look like any of
+the following scenarios.
 
 ### Exceptional work (i.e., A- and upward)
 
 Exceptional projects share the following features:
 
-* the thesis is _exhaustive_, often approaching double the required word count (`20,000`-`30,000` words, minumum)
-* the thesis displays a clear grasp of the relevant literature (engaging `30`+ sources of high disciplinary quality)
-* discussion of ethical and technical imperatives occur throughout the sections, often reinforcing or relating to 
-  prior topics of discussion in the introduction and/or related work
-* the project discusses, coordinates, and relates sources to each other in both complementary and contradictory ways,
-  often highlighting or at least attempting to resolve conflicts where they arise
-* the methodology behind the project is clear, often using multiple diagrams to discuss structure and relationships
-  of the various parts of the related artifact
-* experiments show sound methods that, even if generating unsupportive data, are discussed with criticl reflection
-  and clear demonstration of opportunities, faults, and/or successes with reference to how this changed/changes
-  the project as a whole
-* future work clearly grapples with the tasks left undone and the project's impact on the larger computational
-  communities in which it participates
+* the thesis is _exhaustive_, often approaching double the required word count
+(`20,000`-`30,000` words, minimum)
+* the thesis displays a clear grasp of the relevant literature (engaging `30`+
+sources of high disciplinary quality)
+* discussion of ethical and technical imperatives occur throughout the sections,
+often reinforcing or relating to prior topics of discussion in the introduction
+and/or related work
+* the project discusses, coordinates, and relates sources to each other in both
+complementary and contradictory ways, often highlighting or at least attempting
+to resolve conflicts where they arise
+* the methodology behind the project is clear, often using multiple diagrams to
+discuss structure and relationships of the various parts of the related artifact
+* experiments show sound methods that, even if generating unsupportive data, are
+discussed with critical reflection and clear demonstration of opportunities,
+faults, and/or successes with reference to how this changed/changes the project
+as a whole
+* future work clearly grapples with the tasks left undone and the project's
+impact on the larger computational communities in which it participates
 
 ### Above average work (B- to B+)
 
 Above average projects may be described as:
 
 * _substantial_, approaching higher word counts (`20,000` words)
-* displaying a grasp of much, but not all, relevant literature (engaging `25`+ sources of moderate disciplinary quality or authority)
-* discussion of ethical and technical imperatives occur in more than one or two sections, but may remain unresolved or unaddressed
-* the project discusses, coordinates, and relates sources to each other without necessarily recognizing conflicts or areas of contradiction
-* the methodology behind the project is clear, though there remain some questions about project operations, security, or design
-* experiments demonstrate effort in developing results, though the conversation around them does not provide reflective inquiry
-  into faults or successes and their causes/effects
-* future work names and discusses tasks remaining undone and the ethical issues raised by the research, but
-  does not suggest how these relate to the larger communities in which the project traffics
+* displaying a grasp of much, but not all, relevant literature (engaging `25`+
+sources of moderate disciplinary quality or authority)
+* discussion of ethical and technical imperatives occur in more than one or two
+sections, but may remain unresolved or unaddressed
+* the project discusses, coordinates, and relates sources to each other without
+necessarily recognizing conflicts or areas of contradiction
+* the methodology behind the project is clear, though there remain some
+questions about project operations, security, or design
+* experiments demonstrate effort in developing results, though the conversation
+around them does not provide reflective inquiry into faults or successes and
+their causes/effects
+* future work names and discusses tasks remaining undone and the ethical issues
+raised by the research, but does not suggest how these relate to the larger
+communities in which the project traffics
 
 ### Average work (C- to C+)
 
-Average projects often fulfill [the requirements above](#general-thesis-requirements), but stop at having completed the technical
-distinctions the projects asks for in its specifications.
+Average projects often fulfill the requirements above, but stop at having
+completed the technical distinctions the projects asks for in its
+specifications.
 
 ### Below-average work (D to D+)
 
-Below-average projects miss key [requirements](#general-thesis-requirements) and are often under word count, feature fewer sources
-than are required and otherwise do not fulfill a reasonable portion of the tasks defined. Sources are low-quality and often look
-more like tutorials than higher-level disciplinary discussion. Projects falling into this category fulfill 60% - 75% of the requirements.
+Below-average projects miss key requirements and are often under word count,
+feature fewer sources than are required and otherwise do not fulfill a
+reasonable portion of the tasks defined. Sources are low-quality and often look
+more like tutorials than higher-level disciplinary discussion. Projects falling
+into this category fulfill 60% - 75% of the requirements.
 
 ### Failing work (F)
 
-Failing projects lack entire chapters or provide very minimal attempts to complete them. Sources are low-quality and/or are missing.
-Multiple requirements (on the order of 50% or more) are not fulfilled. Writing is cursory and not descriptive; may include many instances
-of generalization and no evidence.
+Failing projects lack entire chapters or provide very minimal attempts to
+complete them. Sources are low-quality and/or are missing. Multiple requirements
+(on the order of 50% or more) are not fulfilled. Writing is cursory and not
+descriptive; may include many instances of generalization and no evidence.
 
 ## Tagging
 
