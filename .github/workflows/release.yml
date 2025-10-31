@@ -26,7 +26,7 @@ jobs:
         if: always()
       - name: Render the PDF
         run: |
-          quarto render thesis/index.qmd  --to allegheny-cis-pdf
+          quarto render thesis/index.qmd --to allegheny-cis-pdf
           cp _site/thesis/index.pdf _site/thesis/SeniorThesis.pdf
         if: always()
       - name: Create release
