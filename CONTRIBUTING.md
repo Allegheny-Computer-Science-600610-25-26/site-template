@@ -176,8 +176,7 @@ communities in which the project traffics
 ### Average work (C- to C+)
 
 Average projects often fulfill the requirements above, but stop at having
-completed the technical distinctions the projects asks for in its
-specifications.
+completed the technical distinctions the project asks for in its specifications.
 
 ### Below-average work (D to D+)
 
