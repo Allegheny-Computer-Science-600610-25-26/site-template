@@ -32,8 +32,8 @@ For specific details about the general evaluation rubric for _minimum
 requirements_ please refer to the course syllabus. Please note that your senior
 thesis chapters in your time in `600` will be evaluated according to the content
 that you submit in that course and your senior thesis chapters submitted during
-`610` will be evaluated according to all of the following baseline requirements.
-This means that a student's work for `600` will not be evaluated according to
+`610` will be evaluated according to all of the baseline requirements. This
+means that a student's work for `600` will not be evaluated according to
 requirements that they could not yet fulfill until the completion of their
 senior thesis. For instance, the requirement that "The thesis consists of at
 least `15000` words" applies to a student's work in `610` and _not_ `600`.
@@ -46,9 +46,9 @@ are delimited by the understanding that sections should "include, but not be
 limited to" the areas highlighted. It is also important to note that students
 may, with the consent of their both their first and second readers, modify the
 structure of their senior thesis so that it includes, for instance, different
-chapters or different ordering of chapters. With that written, the final senior
-thesis that a student submits must still meet all the baseline
-requirements outlined in the course syllabus.
+chapters or different ordering of chapters. With that said, the final senior
+thesis that a student submits must still meet all the baseline requirements
+outlined in the course syllabus.
 
 Also keep in mind that the typical instruction to "whenever possible, use and
 describe one or more concrete examples and technical diagrams" applies across
@@ -67,7 +67,7 @@ the fundamental specifics of what each chapter entails. Meeting the following
 requirements ensures a _passing_ grade, and not necessarily anything above that
 watermark. Please review the course syllabus for more details about the specific
 baseline requirements for each chapter. The purpose of the content in these
-lists it to use "action words" to highlight the key tasks that each chapter
+lists it to use "action words" to highlight the key "tasks" that each chapter
 should accomplish as a part of the entire senior thesis document.
 
 #### Introduction Section Requirements
