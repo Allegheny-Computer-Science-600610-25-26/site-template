@@ -71,11 +71,11 @@ This site deploys via Github Pages using the Quarto static site building system.
 
 ### `Private` vs. `Public` availability
 
-You retain the choice to make this journal private or public. The `Pages`
-settings menu allows either. Your URL will change depending on which selection
-you make, and you should be able to find the resulting URL of your journal by
-visiting the pages section of the repository's `Settings` menu. Your URL should
-display at the top of the page:
+You retain the choice to make your research journal private or public; the
+`Pages` settings menu should allow either. Your URL will change depending on
+which selection you make, and you should be able to find the resulting URL of
+your journal by visiting the pages section of the repository's `Settings` menu.
+Your URL should display at the top of the page:
 
 ![GitHub Pages url](https://raw.githubusercontent.com/ReadyResearchersTemplates/site-template/media/img/600%20-%20Site%20Template%20-%20Github%20URL.png)
 
