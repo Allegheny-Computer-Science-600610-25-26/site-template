@@ -8,9 +8,25 @@ Computer and Information Science, please refer to the syllabus for your course.
 To enable you to complete many of the deliverables for the 600-level course,
 this repository contain contains instructions for your research journal and your
 senior thesis document. Quarto, serving as a build system for your site, will
-build your thesis document as a website and a PDF. Your research journal
-contains short blog posts in one of the following categories: `reflection`,
-`feedback`, `activity`, and `changelog`.
+build your thesis document as a website and a PDF.
+
+Your research journal contains short posts in one of the following categories:
+`reflection`, `feedback`, `activity`, and `changelog`. For the Fall 2025
+semester, you are responsible for writing the following posts:
+
+- `reflection` posts:
+    - Reflect on the current version of your computational artifact
+    - Reflect on your experiences preparing for and giving your presentation
+- `activity` posts:
+    - State and explain the title of your senior comprehensive project
+    - Provide and justify the outline for Chapter One of your senior thesis
+    - Provide and justify the outline for Chapter Two of your senior thesis
+- `feedback` post:
+    - Offer feedback to both your classmates and your instructors on work in the
+      600-level course in Computer and Information Science
+
+Your writing assignments for the 610-level course will be released during the
+upcoming Spring 2026 semester.
 
 ## Enabling site build
 
