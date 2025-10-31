@@ -3,12 +3,13 @@
 [![Build Research Journal Site](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 [![Release Senior Thesis](../../actions/workflows/release.yml/badge.svg)](../../actions/workflows/release.yml)
 
-
-
-Eventually, this site (and `README`) will contain build for your working thesis
-document. Quarto, serving as a build system for your site, will build your
-thesis document as a website and a PDF. For now, it is your responsibility to
-main this space as your [`Research
+For more information about the course requirements for your 600-level course in
+Computer and Information Science, please refer to the syllabus for your course.
+To enable you to complete many of the deliverables for the 600-level course,
+this repository contain contains instructions for your research journal and your
+senior thesis document. Quarto, serving as a build system for your site, will
+build your thesis document as a website and a PDF. For now, it is your
+responsibility to main this space as your [`Research
 Journal`](https://github.com/allegheny-college-comp-fall-2024/course-materials?tab=readme-ov-file#research-journal).
 
 ## Enabling site build
