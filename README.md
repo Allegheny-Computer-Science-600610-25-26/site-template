@@ -16,17 +16,17 @@ Your research journal contains short posts in one of the following categories:
 `reflection`, `feedback`, `activity`, and `changelog`. For the Fall 2025
 semester, you are responsible for writing the following posts:
 
-- `reflection` posts:
+- Two `reflection` posts:
     - Reflect on the current version of your computational artifact
     - Reflect on your experiences preparing for and giving your presentation
-- `activity` posts:
+- Three `activity` posts:
     - State and explain the title of your senior comprehensive project
     - Provide and justify the outline for Chapter One of your senior thesis
     - Provide and justify the outline for Chapter Two of your senior thesis
-- `feedback` post:
+- One `feedback` post:
     - Offer feedback to both your classmates and your instructors on work in the
       600-level course in Computer and Information Science
-- `changelog` post:
+- One `changelog` post:
     - Summarize all work completed leading up to a `1.0` release of your senior
       comprehensive project that is visible through a website hosted on GitHub
       pages and a release of your senior thesis in PDF through the `Releases`
