@@ -75,19 +75,19 @@ should accomplish as a part of the entire senior thesis document.
 * **States** the problem addressed in this research
 * **Overviews** the project's aims
 * **Summarizes** the background motivating your research
-* **Highlights** the  ethical issues implied by the current state of the problem
+* **Highlights** the ethical issues implied by the current state of the problem
 underlying the work
 
 #### Related Work
 
-* the review of relevant existing work (i.e., the "literature review")
-* the literature review should be a concise, scholarly review of the literature
-  explaining the background to the proposed research
-* the review should provide the context for the aims of the research in relation
-  to existing work on the topic
-* the literature review should place the senior thesis research in the context
-  of the relevant existing work
-* review of ethical discussions referenced in the `Introduction`
+* **Reviews** the relevant existing work (i.e., the "literature review")
+* **Furnishes** a concise, scholarly review of the literature explaining the
+background to the proposed research
+* **Provides** the context for the aims of the research in relation to existing
+work on the topic
+* **Places** the senior thesis research in the context of the relevant existing
+work
+* **Connects** to the ethical discussions referenced in the `Introduction`
 
 #### Method Section Requirements
 
@@ -104,8 +104,8 @@ approaches
 
 * **Displays and discusses** evaluative metrics and data used as validation
 strategies the projects
-* **Defines** thresholds for success, and discusses the outcomes of experiments
-relative to them
+* **Defines** the thresholds for success, and discusses the outcomes of
+experiments relative to them
 * **Explores** the trade-offs evident in the experimental results, leverages
 previously defined metrics about, for instance, efficiency and/or effectiveness
 * **Uses** techniques such as statistics and/or data visualizations to highlight
