@@ -325,6 +325,6 @@ the procedure outlined above.
 ## Assistance
 
 If you are having trouble completing any part of this project, then please talk
-with your first reader. In particular, if you have questions about your research
-project, please see your first reader. Alternatively, you may ask questions in
-the Discord server for this course.
+with your first reader, second reader, or the coordinator for your 600-level
+course. In particular, if you have questions about your research project, please
+see your first reader. 
