@@ -3,7 +3,7 @@ title: "ReadyResearchers Template"
 listing:
   - id: posts
     contents:
-      - posts/agenda
+      - posts/activity
       - posts/reflection
       - posts/feedback
     sort: "date desc"
