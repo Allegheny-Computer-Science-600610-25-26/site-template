@@ -10,7 +10,9 @@ this repository contain contains instructions for your research journal and your
 senior thesis document. Quarto, serving as a build system for your site, will
 build your thesis document as a website and a PDF.
 
-## Research Journal
+## Course Requirements
+
+### Research Journal
 
 Your research journal contains short posts in one of the following categories:
 `reflection`, `feedback`, `activity`, and `changelog`. For the Fall 2025
@@ -35,7 +37,7 @@ semester, you are responsible for writing the following posts:
 Your writing assignments for the 610-level course will be released during the
 upcoming Spring 2026 semester.
 
-## Senior Thesis Chapters
+### Senior Thesis Chapters
 
 All researchers in the 600-level course in Computer and Information Science must
 document their work in the form of a written thesis. While variations on the
